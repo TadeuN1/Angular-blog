@@ -12,13 +12,12 @@ export class BigCardComponent implements OnInit{
   cardTitle: string = ""
   @Input()
   cardDescription: string = ""
-
+  Id:string ="1"
 
   constructor(){
 
   }
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
   }
 
 }
